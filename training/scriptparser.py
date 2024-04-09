@@ -1,5 +1,5 @@
-from movie_screenplay_parser.movieparser.create_feats import FeatureExtractor
-from movie_screenplay_parser.movieparser.scriptloader import label2id
+from create_feats import FeatureExtractor
+from scriptloader import label2id
 
 import math
 import os

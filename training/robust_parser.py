@@ -1,4 +1,4 @@
-from movie_screenplay_parser.movieparser.scriptparser import ScriptParser
+from scriptparser import ScriptParser
 from typing import List
 import torch
 

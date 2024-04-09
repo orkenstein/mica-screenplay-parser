@@ -1,5 +1,5 @@
-from movie_screenplay_parser.movieparser.scriptparser import ScriptParser
-from movie_screenplay_parser.movieparser.scriptloader import get_dataloaders, label2id
+from scriptparser import ScriptParser
+from scriptloader import get_dataloaders, label2id
 
 import os
 import numpy as np

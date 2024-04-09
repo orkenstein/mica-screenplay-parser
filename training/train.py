@@ -1,6 +1,6 @@
-from movie_screenplay_parser.movieparser.scriptloader import get_dataloaders, label2id
-from movie_screenplay_parser.movieparser.scriptparser import ScriptParser
-from movie_screenplay_parser.movieparser.evaluate import evaluate, get_classification_report
+from scriptloader import get_dataloaders, label2id
+from scriptparser import ScriptParser
+from evaluate import evaluate, get_classification_report
 
 import json
 import math

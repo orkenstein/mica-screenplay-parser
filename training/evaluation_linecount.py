@@ -1,5 +1,5 @@
-from movie_screenplay_parser.movieparser.parse_scripts_noindent import parse_lines
-from movie_screenplay_parser.movieparser.robust_parser import MovieParser
+from parse_scripts_noindent import parse_lines
+from robust_parser import MovieParser
 
 from collections import Counter
 import os
