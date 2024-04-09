@@ -2,7 +2,7 @@
 the movie script line (original or modified), the human-annotated tag, and error type (no error or some specific 
 formatting error).
 """
-from parse_scripts_noindent import parse_lines
+from .parse_scripts_noindent import parse_lines
 
 from collections import defaultdict
 import os

@@ -121,7 +121,7 @@ def train(data_folder: str, results_folder: str, seqlen: int, bidirectional: boo
     #### get list of movies
     #####################################################################
     
-    movies = [line.split()[0] for line in open(os.path.join(data_folder, "SAIL_annotation_screenplays/line_indices.txt")).read().splitlines()]
+    movies = [line.split()[0] for line in open(os.path.join(data_folder, "screenplays/line_indices.txt")).read().splitlines()]
     
     #####################################################################
     #### set test movie

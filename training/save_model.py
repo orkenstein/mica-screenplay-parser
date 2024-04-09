@@ -1,5 +1,5 @@
-from scriptparser import ScriptParser
-from scriptloader import get_dataloaders, label2id
+from .scriptparser import ScriptParser
+from .scriptloader import get_dataloaders, label2id
 
 import os
 import numpy as np

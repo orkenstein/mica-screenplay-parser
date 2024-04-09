@@ -1,5 +1,5 @@
-from scriptparser import ScriptParser
-from scriptloader import InferenceScriptLoader, label2id
+from .scriptparser import ScriptParser
+from .scriptloader import InferenceScriptLoader, label2id
 
 from typing import List, Dict, Any
 import pandas as pd

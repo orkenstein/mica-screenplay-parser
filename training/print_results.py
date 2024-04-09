@@ -1,4 +1,4 @@
-from parse_scripts_noindent import parse_lines
+from .parse_scripts_noindent import parse_lines
 
 import json
 import os

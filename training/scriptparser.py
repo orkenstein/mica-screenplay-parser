@@ -1,5 +1,5 @@
-from create_feats import FeatureExtractor
-from scriptloader import label2id
+from .create_feats import FeatureExtractor
+from .scriptloader import label2id
 
 import math
 import os
