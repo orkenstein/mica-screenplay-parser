@@ -8,7 +8,7 @@ args = parser.parse_args()
 
 # instantiate a transformer-based parser by setting use_rules=False
 # device_id is the GPU id the parser will use
-trx_parser = ScreenplayParser(use_rules=False, device_id=1)
+trx_parser = ScreenplayParser(use_rules=False, device_id=0)
 
 # instantiate a rule-based parser by setting use_rules=True
 rule_parser = ScreenplayParser(use_rules=True)
@@ -22,3 +22,14 @@ with open(args.script_path) as reader:
 # rule_tags contains the tag per script line found by the rule-based parser
 trx_tags = trx_parser.parse(script)
 rule_tags = rule_parser.parse(script)
+
+print('Transformer-based parser tags:', trx_tags)
+print('Rule-based parser tags:', rule_tags)
+
+with open('trx_tags.txt', 'w') as f:
+    for tag in trx_tags:
+        f.write(f'{tag}\n')
+
+with open('rule_tags.txt', 'w') as f:
+    for tag in rule_tags:
+        f.write(f'{tag}\n')
