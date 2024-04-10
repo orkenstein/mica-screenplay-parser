@@ -1,7 +1,7 @@
 """Evaluate rule-based or the trained transformer-based parser on different formatting issues of screenplays. You can
 specify different error types and error rates to evaluate on.
 """
-from .screenplayparser.parser import ScreenplayParser
+from screenplayparser.parser import ScreenplayParser
 
 import os
 import re

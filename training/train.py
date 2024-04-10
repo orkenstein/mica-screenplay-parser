@@ -1,6 +1,6 @@
-from scriptloader import get_dataloaders, label2id
-from scriptparser import ScriptParser
-from evaluate import evaluate, get_classification_report
+from .scriptloader import get_dataloaders, label2id
+from .scriptparser import ScriptParser
+from .evaluate import evaluate, get_classification_report
 
 import json
 import math
